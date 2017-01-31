@@ -6,5 +6,5 @@ from center.views import IndexRequestView
 
 
 urlpatterns = [
-    url(r'^$', IndexRequestView.as_view(), 'index'),
+    url(r'^$', IndexRequestView.as_view(), name='index'),
 ]
