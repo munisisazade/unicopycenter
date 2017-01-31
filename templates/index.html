@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="tags for website">
+    <meta name="description" content="UniCopyCenter">
+    <meta name="author" content="">
+    
+    <title>UniCopyCenter</title>
+    
+    <!-- injector:css -->
+    <link rel="stylesheet" href="css/design.min.css">
+    <!-- endinjector -->
+    
+    <!-- injector:js -->
+    <script src="js/min/assets/jquery.min.js"></script>
+    <script src="js/min/assets/bootstrap.min.js"></script>
+    <script src="js/min/assets/filer.min.js"></script>
+    <script src="js/min/assets/vide.min.js"></script>
+    <script src="js/min/app.min.js"></script>
+    <!-- endinjector -->
+
+</head>
+
+<body id="body">
+
+<header>
+ <nav class="navbar navbar-copy navbar-fixed-top">
+     <div class="container">
+         <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar first"></span>
+                 <span class="icon-bar second"></span>
+                 <span class="icon-bar third"></span>
+             </button>
+             <a class="navbar-brand" href="index.html#/ru">
+                 <img src="img/logo.png" class="img-responsive pull-left">
+                 <span class="brand hidden-xs text-white pull-left font-open-s-x-b">UniCopyCenter</span>
+             </a>
+         </div>
+         <div class="collapse navbar-collapse" id="collapse1">
+             <ul class="nav navbar-nav nav-lang font-open-s-x-b">
+                 <li class="active"><a href="#/ru">РУ</a></li>
+                 <li class=""><a href="#/az">AZ</a></li>
+             </ul>
+             <a href="#file" class="btn btn-green btnFile font-open-s-x-b pull-right" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+         </div>
+     </div>
+ </nav></header>
+
+<div class="progress"></div>
+<div class="logo"><img src="img/logo.png" class="img-responsive center-block"></div>
+<div class="top cur-pot">
+    <a href="#body" class="btn btn-blue"><i class="fa fa-chevron-up"></i></a>
+</div>
+<section class="section-video">
+    <div id="videoblock" style="width: 100%; height: 480px;">
+    </div>
+</section>
+<section class="section-whatis sectionAnimate text-black text-center font-open-s-r">
+    <div class="container">
+        <h1 class="title nm-t animated" data-direction="fadeInUp">Что такое UniCopyCenter?</h1>
+        <p class="desc center-block nm-b animated" data-direction="fadeInUp">
+            UniCopyCenter это сайт, разработанный для быстрой отправки файлов и скорейшего
+            получение ваших документов без потерий времени.
+            Наша команда делает все возможное чтобы вы были довольны.
+        </p>
+    </div>
+</section>
+<section class="section-whatfor sectionAnimate text-black font-open-s-r">
+    <div class="container">
+        <h1 class="title text-center nm-t animated" data-direction="fadeInUp">Для кого предназначен сайт?</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="content/whatfor.jpg" class="img-responsive animated" data-direction="fadeInUp">
+            </div>
+            <div class="col-md-7">
+                <p class="desc animated" data-direction="fadeInUp">
+                    Сайт в основном предназначен для студентов учающихся в вузах Азербайджана.
+                    Мы стараемся чтобы студенты не тратили время на распечатку файлов.
+                </p>
+                <a class="btn btn-blue font-open-s-x-b animated" data-direction="fadeInUp" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-aim sectionAnimate text-black font-open-s-r">
+    <div class="container">
+        <h1 class="title text-center nm-t animated" data-direction="fadeInUp">Наша цель</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="content/mission.jpg" class="img-responsive animated" data-direction="fadeInUp">
+            </div>
+            <div class="col-md-7">
+                <p class="desc animated" data-direction="fadeInUp">
+                    Наша цель состоит в том, чтобы сэкономить время студента на распечатку документов,
+                    а также уверенность в том, что ваш документ будет готова как только вы придете в наш UniCopyCenter.
+                </p>
+                <a class="btn btn-yellow font-open-s-x-b animated" data-direction="fadeInUp" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-work sectionAnimate text-black ">
+    <div class="container">
+        <h1 class="title text-center font-open-s-r nm-t animated" data-direction="fadeInUp">Правила подачи документов</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="content/documents.jpg" class="img-responsive animated" data-direction="fadeInUp">
+            </div>
+            <div class="col-md-7">
+                <ul class="nav nav-work font-open-s-b animated" data-direction="fadeInUp">
+                    <li><span class="text-blue">1.</span> Ваши документы принимаются в течении всего дня (до 00:00).</li>
+                    <li><span class="text-blue">2.</span> На следующий день вы можете прийти и без потери времени взять свою готовую работу.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-work sectionAnimate text-black">
+    <div class="container">
+        <h1 class="title text-center font-open-s-r nm-t animated" data-direction="fadeInUp">Как это работает?</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="content/message.jpg" class="img-responsive animated" data-direction="fadeInUp">
+            </div>
+            <div class="col-md-7">
+                <ul class="nav nav-work font-open-s-b animated" data-direction="fadeInUp">
+                    <li><span class="text-blue">1.</span> Нажмите на кнопку "отправить файл"</li>
+                    <li><span class="text-blue">2.</span> Введите имя,фамилию,отчества</li>
+                    <li><span class="text-blue">3.</span> Укажите в каком университете вы учитесь</li>
+                    <li><span class="text-blue">4.</span> Укажите в каком вы курсе и какая ваша группа</li>
+                    <li><span class="text-blue">5.</span> Укажите номер телефона</li>
+                    <li><span class="text-blue">6.</span> Выберите файлы для распечатки</li>
+                    <li><span class="text-blue">6.</span> Нажмите на кнопку "Отправить файл"</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-price sectionAnimate">
+    <div class="container">
+        <h1 class="title text-center text-black font-open-s-r nm-t animated" data-direction="fadeInUp">Стоимость услуги</h1>
+        <div class="row flex">
+            <div class="col-md-6">
+                <h2 class="title-type text-center">Односторонний</h2>
+                    <div class="col-md-6">
+                        <div class="panel panel-pricing text-center nr animated" data-direction="fadeInUp">
+                            <div class="panel-heading">
+                                <p class="panel-title text-black font-open-s-s-b">от 1 до 100 листов</p>
+                            </div>
+                            <div class="panel-body">
+                                <h1 class="price text-blue font-open-s-b nm-t">3<sub class="sub-price">00</sub>коп</h1>
+                            </div>
+                            <div class="panel-footer bg-trns nb np-t np-b">
+                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-pricing text-center nr animated" data-direction="fadeInUp">
+                            <div class="panel-heading">
+                                <p class="panel-title text-black font-open-s-s-b">Более 100 листов</p>
+                            </div>
+                            <div class="panel-body">
+                                <h1 class="price text-blue font-open-s-b nm-t">2<sub class="sub-price">50</sub>коп</h1>
+                            </div>
+                            <div class="panel-footer bg-trns nb np-t np-b">
+                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="title-type text-center">Двухсторонний</h2>
+                    <div class="col-md-6">
+                        <div class="panel panel-pricing text-center nr animated" data-direction="fadeInUp">
+                            <div class="panel-heading">
+                                <p class="panel-title text-black font-open-s-s-b">от 1 до 100 листов</p>
+                            </div>
+                            <div class="panel-body">
+                                <h1 class="price text-blue font-open-s-b nm-t">5<sub class="sub-price">00</sub>коп</h1>
+                            </div>
+                            <div class="panel-footer bg-trns nb np-t np-b">
+                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-pricing text-center nr animated" data-direction="fadeInUp">
+                            <div class="panel-heading">
+                                <p class="panel-title text-black font-open-s-s-b">Более 100 листов</p>
+                            </div>
+                            <div class="panel-body">
+                                <h1 class="price text-blue font-open-s-b nm-t">4<sub class="sub-price">50</sub>коп</h1>
+                            </div>
+                            <div class="panel-footer bg-trns nb np-t np-b">
+                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal modal-file fade" id="ModalFile" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body np">
+                <form class="form form-file font-open-s-r" action="" method="POST">
+                    <h3 class="text-center text-uppercase font-open-s-b nm-t">
+                        Ваш файл будет принят в течении всего дня
+                    </h3>
+                    <p class="text-center">Заполните форму</p>
+                    <p class="p-top text-center">и ваша заявка будет готова на следующий день.</p>
+                    <div class="form-group has-error">
+                        <input type="text" class="form-control text-uppercase required" placeholder="Ваше Имя и Фамилия">
+                        <i class="fa fa-user hidden-xs"></i>
+                    </div>
+                    <div class="form-group has-success">
+                        <input type="text" class="form-control text-uppercase required" placeholder="Ваш Университет">
+                        <i class="fa fa-university hidden-xs"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" min="1" max="4" class="form-control text-uppercase required" placeholder="Ваш Курс">
+                        <i class="fa fa-graduation-cap hidden-xs"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" min="1" max="5000" class="form-control text-uppercase required" placeholder="Ваша Группа">
+                        <i class="fa fa-users hidden-xs"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control text-uppercase required" placeholder="Ваш Email">
+                        <i class="fa fa-envelope hidden-xs"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control text-uppercase required" placeholder="Ваш номер">
+                        <i class="fa fa-phone hidden-xs"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="textarea form-control resize text-uppercase required" placeholder="Описание"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <select name="listtype" class="form-control text-uppercase select required">
+                            <option selected disabled>Выберите тип листа:</option>
+                            <option value="one">Односторонний</option>
+                            <option value="two">Двухсторонний</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="file" name="files[]" id="filer_input" multiple="multiple">
+                    </div>
+                    <div class="form-group">
+                        <button disabled type="submit" class="btn btn-block btn-blue disabled text-center text-uppercase font-open-s-b nr ">Отправить файл</button>
+                    </div>
+                    <p class="p-bottom-top text-center">Ваши данные в безопасности</p>
+                    <p class="p-bottom-bottom text-center">и не будут переданы третьим лицам!</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-alert fade" id="ModalAlert" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content nr">
+            <div class="modal-body">
+                <h3 class="text-center text-danger text-uppercase font-open-s-b nm-t">
+                    Внимания!
+                </h3>
+                <p class="text-center font-open-s-r">
+                    Перед тем как отправлять документ вам следует знать,что наши услуги дейтвительно только
+                    в Азербайджанском Государственном Университете Нефти и Промышленности.
+                </p>
+                <p class="text-center font-open-s-r">
+                    В ближайщем будущем наши услуги будут во всех Университетах Азербайджана.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a class="btn btnAlert" data-toggle="modal" data-target="#ModalAlert"></a>
+
+
+
+
+<footer class="footer sectionAnimate">
+    <div class="container">
+        <h1 class="title text-center text-black font-open-s-r nm-t animated" data-direction="fadeInUp">Наше местоположение</h1>
+        <p class="street text-black font-open-s-b animated" data-direction="fadeInUp"><i class="fa fa-university"></i> Азербайджанский Университет Нефти и Промышленности,1-ый корпус, комната номер 200</p>
+        <p class="street text-black font-open-s-b animated" data-direction="fadeInUp"><i class="fa fa-phone"></i> +994775586280</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1519.676747363034!2d49.848598369320676!3d40.378857400977104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53a5c1e7cc11c36f!2z0JDQt9C10YDQsdCw0LnQtNC20LDQvdGB0LrQuNC5INCT0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90YvQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINCd0LXRhNGC0Lgg0Jgg0J_RgNC-0LzRi9GI0LvQtdC90L3QvtGB0YLQuA!5e0!3m2!1sru!2s!4v1485112117632" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</footer>
+<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>
