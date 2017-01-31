@@ -25,7 +25,7 @@ SECRET_KEY = '$9ewus3gbfad7$k@5q1kpz=^xmn&6db2=tf1+_&9%%9wha@f7m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'center',
 ]
 
 MIDDLEWARE = [
@@ -99,13 +100,18 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'az'
 # Internationalization
-# https://docs.djangoproject.com/en/1.10/topics/i18n/
+# https://docs.djangoproject.com/en/1.9/topics/i18n/
 
 LANGUAGE_CODE = 'az'
 
-TIME_ZONE = 'UTC'
+LANGUAGES = (
+    ('az', 'Azərbaycanca'),
+    ('ru', 'Русский'),
+)
+
+TIME_ZONE = 'Asia/Baku'
 
 USE_I18N = True
 
@@ -114,7 +120,17 @@ USE_L10N = True
 USE_TZ = True
 
 
+
+
+
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media'
