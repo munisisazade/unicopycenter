@@ -24,3 +24,8 @@ class Orders(models.Model):
 
     def __str__(self):
         return self.full_name
+
+
+# class Uploads(models.Model):
+#     user_object = models.ForeignKey()
+#     file = models.FileField()
