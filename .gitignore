@@ -92,5 +92,5 @@ ENV/
 .ropeproject
 .idea/
 restart.sh
-makemigration.sh
+makemigrations.sh
 shell.sh
