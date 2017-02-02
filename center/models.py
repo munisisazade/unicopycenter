@@ -49,3 +49,6 @@ class Uploads(models.Model):
 
     def __str__(self):
         return self.file.name
+
+    def upload_file(self):
+        return "<a href='%s' target=_blank>Faylı yüklə</a>" % self.file.name

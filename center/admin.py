@@ -23,4 +23,12 @@ class OrdersAdmin(admin.ModelAdmin):
         }),
     ]
 
+class UploadsAdmin(admin.ModelAdmin):
+    fieldsets = [
+        (None, {
+            'fields': ['upload_file', 'file']
+        }),
+    ]
+
 admin.site.register(Orders,OrdersAdmin)
+admin.site.register(Uploads,UploadsAdmin)
