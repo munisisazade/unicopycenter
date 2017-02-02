@@ -30,5 +30,5 @@ class UploadsAdmin(admin.ModelAdmin):
         }),
     ]
 
-admin.site.register(Orders,OrdersAdmin)
+#admin.site.register(Orders,OrdersAdmin)
 admin.site.register(Uploads,UploadsAdmin)
