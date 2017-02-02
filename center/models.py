@@ -52,3 +52,6 @@ class Uploads(models.Model):
 
     def upload_file(self):
         return "<a href='%s' target=_blank>Faylı yüklə</a>" % self.file.name
+
+    upload_file.short_description = "File upload"
+    upload_file.allow_tags = True
