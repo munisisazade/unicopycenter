@@ -30,8 +30,20 @@ class Orders(models.Model):
     def __str__(self):
         return self.full_name
 
+    def save(self, *args, **kwargs):
+        super(Orders, self).save(*args, **kwargs)
+        try:
+            items = Uploads.objects.filter(key=self.key)
+            for x in items:
+                x.relation_id = self.id
+                x.save()
+        except:
+            pass
+        super(Orders, self).save(*args, **kwargs)
+
 
 class Uploads(models.Model):
+    relation = models.ForeignKey(Orders, null=True, blank=True)
     key = models.CharField(max_length=255,null=True,blank=True)
     file = models.FileField(upload_to=filedirectory)
 
