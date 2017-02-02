@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.utils import timezone
 
 tipi = (
     (1,"Bir üzlü"),
@@ -16,7 +16,7 @@ class Orders(models.Model):
     number = models.CharField(max_length=255,verbose_name="Nomre")
     text = models.TextField(verbose_name="Əlavə məlumat")
     types = models.IntegerField(choices=tipi,default=1)
-    date = models.DateTimeField(null=True,blank=True,editable=True, auto_now_add=True)
+    date = models.DateTimeField(null=True,blank=True,default=timezone.now)
 
     class Meta:
         ordering = ('-id',)
