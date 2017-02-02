@@ -5,7 +5,8 @@ class UploadsInline(admin.TabularInline):
     model = Uploads
     extra = 5
 
-@admin.register(Orders)
+
+
 class OrdersAdmin(admin.ModelAdmin):
     inlines = [UploadsInline, ]
     list_display = ('full_name', 'number', 'email','date')
@@ -30,5 +31,5 @@ class UploadsAdmin(admin.ModelAdmin):
         }),
     ]
 
-#admin.site.register(Orders,OrdersAdmin)
+admin.site.register(Orders,OrdersAdmin)
 admin.site.register(Uploads,UploadsAdmin)
