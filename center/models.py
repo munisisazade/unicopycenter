@@ -6,6 +6,9 @@ tipi = (
     (2,"Iki üzlü")
 )
 
+def filedirectory(instance,filename):
+    return "words/%s_%s" % (str(timezone.now()).replace(" ","_")[:19].replace(":","_"),filename)
+
 # Create your models here.
 class Orders(models.Model):
     full_name = models.CharField(max_length=255,verbose_name="Ad və Soyadı")
@@ -15,6 +18,7 @@ class Orders(models.Model):
     email = models.EmailField(verbose_name="E-mail")
     number = models.CharField(max_length=255,verbose_name="Nomre")
     text = models.TextField(verbose_name="Əlavə məlumat")
+    key = models.CharField(max_length=255,null=True,blank=True)
     types = models.IntegerField(choices=tipi,default=1)
     date = models.DateTimeField(null=True,blank=True,default=timezone.now)
 
@@ -27,6 +31,9 @@ class Orders(models.Model):
         return self.full_name
 
 
-# class Uploads(models.Model):
-#     user_object = models.ForeignKey()
-#     file = models.FileField()
+class Uploads(models.Model):
+    key = models.CharField(max_length=255,null=True,blank=True)
+    file = models.FileField(upload_to=filedirectory)
+
+    def __str__(self):
+        return self.file.name
