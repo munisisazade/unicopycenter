@@ -43,6 +43,11 @@ INSTALLED_APPS = [
     'center',
 ]
 
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     #'Copycenter.middleware.force_default_middleware.ForceDefaultLanguageMiddleware',
