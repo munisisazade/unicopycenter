@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
+    'modeltranslation',
     'material',
     'material.admin',
     'django.contrib.admin',
@@ -44,7 +45,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'Copycenter.middleware.force_default_middleware.ForceDefaultLanguageMiddleware'
+    #'Copycenter.middleware.force_default_middleware.ForceDefaultLanguageMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
