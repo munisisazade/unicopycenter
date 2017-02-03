@@ -3,7 +3,15 @@ from center.models import Orders, Uploads
 # Register your models here.
 class UploadsInline(admin.TabularInline):
     model = Uploads
-    extra = 5
+    extra = 4
+    readonly_fields = ('upload_file','file','fayl_name')
+    raw_id_fields = ('relation',)
+    exclude = ('upload_file',)
+    fieldsets = [
+        ('İcra olunmalıdır', {
+            'fields': ['upload_file','file', 'fayl_name']
+        }),
+    ]
 
 
 
@@ -25,11 +33,14 @@ class OrdersAdmin(admin.ModelAdmin):
     ]
 
 class UploadsAdmin(admin.ModelAdmin):
-    fieldsets = [
-        (None, {
-            'fields': ['upload_file', 'file']
-        }),
-    ]
+    #readonly_fields = ('upload_file',)
+    #list_display = ('relation','file','upload_file')
+    # fieldsets = [
+    #     ('İcra olunmalıdır', {
+    #         'fields': ['relation','upload_file','file']
+    #     }),
+    # ]
+    pass
 
 admin.site.register(Orders,OrdersAdmin)
-admin.site.register(Uploads,UploadsAdmin)
+#admin.site.register(Uploads,UploadsAdmin)

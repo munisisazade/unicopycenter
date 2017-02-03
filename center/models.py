@@ -47,11 +47,22 @@ class Uploads(models.Model):
     key = models.CharField(max_length=255,null=True,blank=True)
     file = models.FileField(upload_to=filedirectory)
 
+    class Meta:
+        ordering = ('-id',)
+        verbose_name = "Print olunacaq fayllar"
+        verbose_name_plural = "Print olunacaq fayllar"
+
     def __str__(self):
         return self.file.name
 
     def upload_file(self):
-        return "<a href='%s' target=_blank>Faylı yüklə</a>" % self.file.name
+        return "<button class='btn'><a href='%s' target='_blank' style='color: #fff;'>Faylı yüklə</a></button>" % ('/media/'+self.file.name)
 
     upload_file.short_description = "File upload"
     upload_file.allow_tags = True
+
+    def fayl_name(self):
+        return "<button class='btn'><a href='/delete/?file_name=%s' target='_blank' style='color: #fff;'>Faylı sil</a></button>" % self.file.name
+
+    fayl_name.short_description = "Fayl"
+    fayl_name.allow_tags = True
