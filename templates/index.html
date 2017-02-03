@@ -55,7 +55,7 @@
          <div class="collapse navbar-collapse" id="collapse1">
              <ul class="nav navbar-nav nav-lang font-open-s-x-b">
                  {% for lang in LANGUAGES %}
-                    <li class="{% if html_lang == lang.o %}active{% endif %}"><a href="/{{ lang.0 }}/{{ url }}">{{ lang.1 }}</a></li>
+                    <li class="{% if html_lang == lang.o %}active{% endif %}"><a href="/{{ lang.0 }}/{{ url }}">{{ lang.0 }}</a></li>
 
                  {% endfor %}
              </ul>
