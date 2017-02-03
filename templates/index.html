@@ -54,8 +54,10 @@
          </div>
          <div class="collapse navbar-collapse" id="collapse1">
              <ul class="nav navbar-nav nav-lang font-open-s-x-b">
-                 <li class="active"><a href="#/ru">РУ</a></li>
-                 <li class=""><a href="#/az">AZ</a></li>
+                 {% for lang in LANGUAGES %}
+                    <li class="{% if html_lang == lang.o %}active{% endif %}"><a href="/{{ lang.0 }}/{{ url }}">{{ lang.1 }}</a></li>
+
+                 {% endfor %}
              </ul>
              <a href="#file" class="btn btn-green btnFile font-open-s-x-b pull-right" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
          </div>
