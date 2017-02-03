@@ -1,3 +1,6 @@
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js ie6 oldie" lang="ru"><![endif]-->
 <!--[if IE 7]><html class="no-js ie7 oldie" lang="ru"><![endif]-->
@@ -14,7 +17,7 @@
     <meta name="description" content="UniCopyCenter">
     <meta name="author" content="Munis & Azer">
 
-    <title>UniCopyCenter {{ html_lang }}</title>
+    <title>UniCopyCenter</title>
 
     <!-- injector:css -->
     <link rel="stylesheet" href="{% static 'css/design.min.css' %}">
