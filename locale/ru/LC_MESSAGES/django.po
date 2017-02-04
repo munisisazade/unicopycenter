@@ -125,7 +125,16 @@ msgid "Cap ucun fayli secin"
 msgstr "Выберите файлы для распечатки"
 #: az/templates/index.html:157
 msgid "Xidmət Haqqı"
-msgstr "Односторонний"
+msgstr "Стоимость услуги"
+#: az/templates/index.html:161
+msgid "1-den 100 qeder"
+msgstr "от 1 до 100 листов"
+#: az/templates/index.html:161
+msgid "100-den artiq"
+msgstr "Более 100 листов"
+#: az/templates/index.html:177
+msgid "qəp"
+msgstr "коп"
 
 
 
