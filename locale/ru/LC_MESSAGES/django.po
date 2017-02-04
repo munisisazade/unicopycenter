@@ -107,7 +107,7 @@ msgid "Bu necə işləyir?"
 msgstr "Как это работает?"
 #: az/templates/index.html:140
 msgid "Fayl gondermek duymesine basin"
-msgstr "Нажмите на кнопку "отправить файл""
+msgstr "Нажмите на кнопку 'отправить файл'"
 #: az/templates/index.html:141
 msgid "Adiniz,Soyadinizı daxil edin"
 msgstr "Введите имя,фамилию,отчества"
@@ -123,9 +123,6 @@ msgstr "Укажите номер телефона"
 #: az/templates/index.html:145
 msgid "Cap ucun fayli secin"
 msgstr "Выберите файлы для распечатки"
-#: az/templates/index.html:146
-msgid "Fayl gondermek duymesine basin"
-msgstr "Нажмите на кнопку 'Отправить файл'"
 #: az/templates/index.html:157
 msgid "Xidmət Haqqı"
 msgstr "Односторонний"
