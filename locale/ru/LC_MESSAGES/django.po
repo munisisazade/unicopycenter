@@ -21,3 +21,128 @@ msgstr ""
 #: az/templates/index.html:283
 msgid "Diqqət!"
 msgstr "Внимания!"
+#: az/templates/index.html:286
+msgid "Faylları göndərməmişdən qabaq sizə bildirmək istiyir ki, bizim xidmətlərimiz ancaq Azərbaycan Dövlət Neft və Sənayə Universitində mövcuddur."
+msgstr "Перед тем как отправлять документ вам следует знать,что наши услуги дейтвительно только в Азербайджанском Государственном Университете Нефти и Промышленности."
+#: az/templates/index.html:289
+msgid "Yaxın gələcəkdə bizim xidmətlərimiz bütün Azərbaycan Ali məktəblərdə mövcud olacaq."
+msgstr "В ближайщем будущем наши услуги будут во всех вузах Азербайджана."
+#: az/templates/index.html:228
+msgid "Sizin sənədləriniz gün ərzində qəbul olunacaq"
+msgstr "Ваш файл будет принят в течении всего дня"
+#: az/templates/index.html:230
+msgid "Formani doldurun"
+msgstr "Заполните форму"
+#: az/templates/index.html:231
+msgid "və sizin müraciətiniz növbəti gün hazır olacaq"
+msgstr "и ваша заявка будет готова на следующий день."
+#: az/templates/index.html:233
+msgid "Sizin adınız ve soyadınız"
+msgstr "Ваше Имя и Фамилия"
+#: az/templates/index.html:237
+msgid "Sizin universitet"
+msgstr "Ваш Университет"
+#: az/templates/index.html:241
+msgid "Sizin kursunuz"
+msgstr "Ваш Курс"
+#: az/templates/index.html:245
+msgid "Sizin grupunuz"
+msgstr "Ваша Группа"
+#: az/templates/index.html:249
+msgid "Sizin Emailiniz"
+msgstr "Ваш Email"
+#: az/templates/index.html:253
+msgid "Sizin nömrəniz"
+msgstr "Ваш номер"
+#: az/templates/index.html:257
+msgid "Təsvir"
+msgstr "Описание"
+#: az/templates/index.html:261
+msgid "Vərəqin tipini seçin:"
+msgstr "Выберите тип листа:"
+#: az/templates/index.html:262
+msgid "Birüzlü"
+msgstr "Односторонний"
+#: az/templates/index.html:263
+msgid "İkiüzlü"
+msgstr "Двухсторонний"
+#: az/templates/index.html:272
+msgid "Sizin məlumatınızın təhlükəsizliyinə təminat verilir"
+msgstr "Ваши данные в безопасности"
+#: az/templates/index.html:273
+msgid "və üçüncü şəxsə məlumat verilməyəcək!"
+msgstr "и не будут переданы третьим лицам!"
+#: az/templates/index.html:270
+msgid "Fayl göndər"
+msgstr "Отправить файл"
+#: az/templates/index.html:77
+msgid "UniCopyCenter Nədir?"
+msgstr "Что такое UniCopyCenter?"
+#: az/templates/index.html:79
+msgid "Bu Sayt faylarin tez gonderelmesine ve sizin senedlerin vaxt itirmeden alinmasi ucun nezerde tutulmuwdur. Bizim komanda sizi memun etmek ucun elinden geleni edir."
+msgstr "UniCopyCenter это сайт, разработанный для быстрой отправки файлов и скорейшего получение ваших документов без потерий времени.Наша команда делает все возможное чтобы вы были довольны."
+#: az/templates/index.html:85
+msgid "Sayt kimler ucun nezerde tutulub?"
+msgstr "Для кого предназначен сайт?"
+#: az/templates/index.html:92
+msgid "Bu sayt ,esasen, Azerbaycanin Ali tehsil mekteblerinde oxuyan telebeler ucun nezerde tutulub.Biz caliwiriqki telebeler faylarin cap olumasi ucun vaxt itirmesinler."
+msgstr "Сайт в основном предназначен для студентов учающихся в вузах Азербайджана.Мы стараемся чтобы студенты не тратили время на распечатку файлов."
+#: az/templates/index.html:101
+msgid "Bizim məqsədimiz"
+msgstr "Наша цель"
+#: az/templates/index.html:107
+msgid "Bizim esas meqsedimiz odurki telebeler faylarin cap olunmasina vaxta qanaet etsinler hemcinin bizim ofise gelerken senedlerinin artiq hazir olmasina  emin olsunlar"
+msgstr "Наша цель состоит в том, чтобы сэкономить время студента на распечатку документов, а также уверенность в том, что ваш документ будет готова как только вы придете в наш UniCopyCenter."
+#: az/templates/index.html:117
+msgid "Sənədlərin göndərmə qaydaları"
+msgstr "Правила подачи документов"
+#: az/templates/index.html:124
+msgid "Sizin senedleriniz gun erzinde qebul edilir(00:00 qeder)."
+msgstr "Ваши документы принимаются в течении всего дня (до 00:00)."
+#: az/templates/index.html:125
+msgid "Novbeti gununde, siz bizim ofise gelerek, oz senedleriniz vaxt itirmeden goture bilersiniz."
+msgstr "На следующий день вы можете прийти и без потери времени взять свою готовую работу."
+#: az/templates/index.html:133
+msgid "Bu necə işləyir?"
+msgstr "Как это работает?"
+#: az/templates/index.html:140
+msgid "Fayl gondermek duymesine basin"
+msgstr "Нажмите на кнопку "отправить файл""
+#: az/templates/index.html:141
+msgid "Adiniz,Soyadinizı daxil edin"
+msgstr "Введите имя,фамилию,отчества"
+#: az/templates/index.html:142
+msgid "Hansi Univerisitetde oxuyursunuz"
+msgstr "Укажите в каком университете вы учитесь"
+#: az/templates/index.html:143
+msgid "Hansı qrupda oxuyursunuz"
+msgstr "Укажите в каком вы курсе и какая ваша группа"
+#: az/templates/index.html:144
+msgid "Telefon nomrenizi daxil edin"
+msgstr "Укажите номер телефона"
+#: az/templates/index.html:145
+msgid "Cap ucun fayli secin"
+msgstr "Выберите файлы для распечатки"
+#: az/templates/index.html:146
+msgid "Fayl gondermek duymesine basin"
+msgstr "Нажмите на кнопку 'Отправить файл'"
+#: az/templates/index.html:157
+msgid "Xidmət Haqqı"
+msgstr "Односторонний"
+#: az/templates/index.html:146
+msgid "Fayl gondermek duymesine basin"
+msgstr "Нажмите на кнопку 'Отправить файл'"
+#: az/templates/index.html:146
+msgid "Fayl gondermek duymesine basin"
+msgstr "Нажмите на кнопку 'Отправить файл'"
+
+
+
+
+
+#: az/templates/index.html:296
+msgid "Bizim yerləşdiyimiz məkan"
+msgstr "Наше местоположение"
+#: az/templates/index.html:297
+msgid "Azerbacan dovlet neft ve saneye universitetin binasi"
+msgstr "Азербайджанский Университет Нефти и Промышленности,1-ый корпус, комната номер 200"

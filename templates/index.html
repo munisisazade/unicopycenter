@@ -59,7 +59,7 @@
 
                  {% endfor %}
              </ul>
-             <a href="#file" class="btn btn-green btnFile font-open-s-x-b pull-right" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+             <a href="#file" class="btn btn-green btnFile font-open-s-x-b pull-right" data-toggle="modal" data-target="#ModalFile">{% trans 'Fayl göndər' %}</a>
          </div>
      </div>
  </nav></header>
@@ -74,59 +74,55 @@
 </section>
 <section class="section-whatis sectionAnimate text-black text-center font-open-s-r">
     <div class="container">
-        <h6 class="title nm-t animated" data-direction="fadeInUp">Что такое UniCopyCenter?</h6>
+        <h6 class="title nm-t animated" data-direction="fadeInUp">{% trans 'UniCopyCenter Nədir?' %}</h6>
         <p class="desc center-block nm-b animated" data-direction="fadeInUp">
-            UniCopyCenter это сайт, разработанный для быстрой отправки файлов и скорейшего
-            получение ваших документов без потерий времени.
-            Наша команда делает все возможное чтобы вы были довольны.
+            {% trans 'Bu Sayt faylarin tez gonderelmesine ve sizin senedlerin vaxt itirmeden alinmasi ucun nezerde tutulmuwdur. Bizim komanda sizi memun etmek ucun elinden geleni edir.' %}
         </p>
     </div>
 </section>
 <section class="section-whatfor sectionAnimate text-black font-open-s-r">
     <div class="container">
-        <h6 class="title text-center nm-t animated" data-direction="fadeInUp">Для кого предназначен сайт?</h6>
+        <h6 class="title text-center nm-t animated" data-direction="fadeInUp">{% trans 'Sayt kimler ucun nezerde tutulub?' %}</h6>
         <div class="row">
             <div class="col-md-5">
                 <img src="{% static 'content/whatfor.jpg' %}" alt="whatfor" class="img-responsive animated" data-direction="fadeInUp">
             </div>
             <div class="col-md-7">
                 <p class="desc animated" data-direction="fadeInUp">
-                    Сайт в основном предназначен для студентов учающихся в вузах Азербайджана.
-                    Мы стараемся чтобы студенты не тратили время на распечатку файлов.
+                    {% trans 'Bu sayt ,esasen, Azerbaycanin Ali tehsil mekteblerinde oxuyan telebeler ucun nezerde tutulub.Biz caliwiriqki telebeler faylarin cap olumasi ucun vaxt itirmesinler.' %}
                 </p>
-                <a class="btn btn-blue font-open-s-x-b animated" data-direction="fadeInUp" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                <a class="btn btn-blue font-open-s-x-b animated" data-direction="fadeInUp" data-toggle="modal" data-target="#ModalFile">{% trans 'Fayl göndər' %}</a>
             </div>
         </div>
     </div>
 </section>
 <section class="section-aim sectionAnimate text-black font-open-s-r">
     <div class="container">
-        <h6 class="title text-center nm-t animated" data-direction="fadeInUp">Наша цель</h6>
+        <h6 class="title text-center nm-t animated" data-direction="fadeInUp">{% trans 'Bizim məqsədimiz' %}</h6>
         <div class="row">
             <div class="col-md-5">
                 <img src="{% static 'content/mission.jpg' %}" alt="mission" class="img-responsive animated" data-direction="fadeInUp">
             </div>
             <div class="col-md-7">
                 <p class="desc animated" data-direction="fadeInUp">
-                    Наша цель состоит в том, чтобы сэкономить время студента на распечатку документов,
-                    а также уверенность в том, что ваш документ будет готова как только вы придете в наш UniCopyCenter.
+                    {% trans 'Bizim esas meqsedimiz odurki telebeler faylarin cap olunmasina vaxta qanaet etsinler hemcinin bizim ofise gelerken senedlerinin artiq hazir olmasina  emin olsunlar' %}
                 </p>
-                <a class="btn btn-yellow font-open-s-x-b animated" data-direction="fadeInUp" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                <a class="btn btn-yellow font-open-s-x-b animated" data-direction="fadeInUp" data-toggle="modal" data-target="#ModalFile">{% trans 'Fayl göndər' %}</a>
             </div>
         </div>
     </div>
 </section>
 <section class="section-work sectionAnimate text-black">
     <div class="container">
-        <h6 class="title text-center font-open-s-r nm-t animated" data-direction="fadeInUp">Правила подачи документов</h6>
+        <h6 class="title text-center font-open-s-r nm-t animated" data-direction="fadeInUp">{% trans 'Sənədlərin göndərmə qaydaları' %}</h6>
         <div class="row">
             <div class="col-md-5">
                 <img src="{% static 'content/documents.jpg' %}" alt="documents" class="img-responsive animated" data-direction="fadeInUp">
             </div>
             <div class="col-md-7">
                 <ul class="nav nav-work font-open-s-b animated" data-direction="fadeInUp">
-                    <li><span class="text-blue">1.</span> Ваши документы принимаются в течении всего дня (до 00:00).</li>
-                    <li><span class="text-blue">2.</span> На следующий день вы можете прийти и без потери времени взять свою готовую работу.</li>
+                    <li><span class="text-blue">1.</span> {% trans 'Sizin senedleriniz gun erzinde qebul edilir(00:00 qeder).' %}</li>
+                    <li><span class="text-blue">2.</span> {% trans 'Novbeti gununde, siz bizim ofise gelerek, oz senedleriniz vaxt itirmeden goture bilersiniz.' %}</li>
                 </ul>
             </div>
         </div>
@@ -134,20 +130,20 @@
 </section>
 <section class="section-work sectionAnimate text-black">
     <div class="container">
-        <h6 class="title text-center font-open-s-r nm-t animated" data-direction="fadeInUp">Как это работает?</h6>
+        <h6 class="title text-center font-open-s-r nm-t animated" data-direction="fadeInUp">{% trans 'Bu necə işləyir?' %}</h6>
         <div class="row">
             <div class="col-md-5">
                 <img src="{% static 'content/message.jpg' %}" alt="message" class="img-responsive animated" data-direction="fadeInUp">
             </div>
             <div class="col-md-7">
                 <ul class="nav nav-work font-open-s-b animated" data-direction="fadeInUp">
-                    <li><span class="text-blue">1.</span> Нажмите на кнопку "отправить файл"</li>
-                    <li><span class="text-blue">2.</span> Введите имя,фамилию,отчества</li>
-                    <li><span class="text-blue">3.</span> Укажите в каком университете вы учитесь</li>
-                    <li><span class="text-blue">4.</span> Укажите в каком вы курсе и какая ваша группа</li>
-                    <li><span class="text-blue">5.</span> Укажите номер телефона</li>
-                    <li><span class="text-blue">6.</span> Выберите файлы для распечатки</li>
-                    <li><span class="text-blue">6.</span> Нажмите на кнопку "Отправить файл"</li>
+                    <li><span class="text-blue">1.</span> {% trans 'Fayl gondermek duymesine basin' %}</li>
+                    <li><span class="text-blue">2.</span> {% trans 'Adiniz,Soyadinizı daxil edin' %}</li>
+                    <li><span class="text-blue">3.</span> {% trans 'Hansi Univerisitetde oxuyursunuz' %}</li>
+                    <li><span class="text-blue">4.</span> {% trans 'Hansı qrupda oxuyursunuz' %}</li>
+                    <li><span class="text-blue">5.</span> {% trans 'Telefon nomrenizi daxil edin' %}</li>
+                    <li><span class="text-blue">6.</span> {% trans 'Cap ucun fayli secin' %}</li>
+                    <li><span class="text-blue">7.</span> {% trans 'Fayl gondermek duymesine basin' %}</li>
                 </ul>
             </div>
         </div>
@@ -158,7 +154,7 @@
         <h6 class="title text-center text-black font-open-s-r nm-t animated" data-direction="fadeInUp">Стоимость услуги</h6>
         <div class="row flex">
             <div class="col-md-6">
-                <h2 class="title-type text-center">Односторонний</h2>
+                <h2 class="title-type text-center">{% trans 'Xidmət Haqqı' %}</h2>
                     <div class="col-md-6">
                         <div class="panel panel-pricing text-center nr animated" data-direction="fadeInUp">
                             <div class="panel-heading">
@@ -168,7 +164,7 @@
                                 <h1 class="price text-blue font-open-s-b nm-t">3<sub class="sub-price">00</sub>коп</h1>
                             </div>
                             <div class="panel-footer bg-trns nb np-t np-b">
-                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">{% trans 'Fayl göndər' %}</a>
                             </div>
                         </div>
                     </div>
@@ -181,7 +177,7 @@
                                 <h1 class="price text-blue font-open-s-b nm-t">2<sub class="sub-price">50</sub>коп</h1>
                             </div>
                             <div class="panel-footer bg-trns nb np-t np-b">
-                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">{% trans 'Fayl göndər' %}</a>
                             </div>
                         </div>
                     </div>
@@ -197,7 +193,7 @@
                                 <h1 class="price text-blue font-open-s-b nm-t">5<sub class="sub-price">00</sub>коп</h1>
                             </div>
                             <div class="panel-footer bg-trns nb np-t np-b">
-                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">{% trans 'Fayl göndər' %}</a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +206,7 @@
                                 <h1 class="price text-blue font-open-s-b nm-t">4<sub class="sub-price">50</sub>коп</h1>
                             </div>
                             <div class="panel-footer bg-trns nb np-t np-b">
-                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">Отправить файл</a>
+                                <a class="btn btn-blue btn-block text-center text-uppercase font-open-s-s-b" data-toggle="modal" data-target="#ModalFile">{% trans 'Fayl göndər' %}</a>
                             </div>
                         </div>
                     </div>
@@ -225,52 +221,52 @@
             <div class="modal-body np">
                 <form class="form form-file font-open-s-r" action="action.php" method="POST">
                     <h3 class="text-center text-uppercase font-open-s-b nm-t">
-                        Ваш файл будет принят в течении всего дня
+                        {% trans 'Sizin sənədləriniz gün ərzində qəbul olunacaq' %}
                     </h3>
-                    <p class="text-center">Заполните форму</p>
-                    <p class="p-top text-center">и ваша заявка будет готова на следующий день.</p>
+                    <p class="text-center">{% trans 'Formani doldurun' %}</p>
+                    <p class="p-top text-center">{% trans 'və sizin müraciətiniz növbəti gün hazır olacaq' %}</p>
                     <div class="form-group has-error">
-                        <input type="text" class="form-control text-uppercase required" placeholder="Ваше Имя и Фамилия">
+                        <input type="text" class="form-control text-uppercase required" placeholder="{% trans 'Sizin adınız ve soyadınız' %}">
                         <i class="fa fa-user hidden-xs"></i>
                     </div>
                     <div class="form-group has-success">
-                        <input type="text" class="form-control text-uppercase required" placeholder="Ваш Университет">
+                        <input type="text" class="form-control text-uppercase required" placeholder="{% trans 'Sizin universitet' %}">
                         <i class="fa fa-university hidden-xs"></i>
                     </div>
                     <div class="form-group">
-                        <input type="number" min="1" max="4" class="form-control text-uppercase required" placeholder="Ваш Курс">
+                        <input type="number" min="1" max="4" class="form-control text-uppercase required" placeholder="{% trans 'Sizin kursunuz' %}">
                         <i class="fa fa-graduation-cap hidden-xs"></i>
                     </div>
                     <div class="form-group">
-                        <input type="number" min="1" max="5000" class="form-control text-uppercase required" placeholder="Ваша Группа">
+                        <input type="number" min="1" max="5000" class="form-control text-uppercase required" placeholder="{% trans 'Sizin grupunuz' %}">
                         <i class="fa fa-users hidden-xs"></i>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control text-uppercase required" placeholder="Ваш Email">
+                        <input type="email" class="form-control text-uppercase required" placeholder="{% trans 'Sizin Emailiniz' %}">
                         <i class="fa fa-envelope hidden-xs"></i>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control text-uppercase required" placeholder="Ваш номер">
+                        <input type="text" class="form-control text-uppercase required" placeholder="{% trans 'Sizin nömrəniz' %}">
                         <i class="fa fa-phone hidden-xs"></i>
                     </div>
                     <div class="form-group">
-                        <textarea class="textarea form-control resize text-uppercase required" placeholder="Описание"></textarea>
+                        <textarea class="textarea form-control resize text-uppercase required" placeholder="{% trans 'Təsvir' %}"></textarea>
                     </div>
                     <div class="form-group">
                         <select name="listtype" class="form-control text-uppercase select required">
-                            <option selected disabled>Выберите тип листа:</option>
-                            <option value="one">Односторонний</option>
-                            <option value="two">Двухсторонний</option>
+                            <option selected disabled>{% trans 'Vərəqin tipini seçin' %}</option>
+                            <option value="one">{% trans 'Birüzlü' %}</option>
+                            <option value="two">{% trans 'İkiüzlü' %}</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <input type="file" name="files[]" id="filer_input" multiple="multiple">
                     </div>
                     <div class="form-group">
-                        <button disabled type="submit" class="btn btn-block btn-blue disabled text-center text-uppercase font-open-s-b nr ">Отправить файл</button>
+                        <button disabled type="submit" class="btn btn-block btn-blue disabled text-center text-uppercase font-open-s-b nr ">{% trans 'Fayl göndər' %}</button>
                     </div>
-                    <p class="p-bottom-top text-center">Ваши данные в безопасности</p>
-                    <p class="p-bottom-bottom text-center">и не будут переданы третьим лицам!</p>
+                    <p class="p-bottom-top text-center">{% trans 'Sizin məlumatınızın təhlükəsizliyinə təminat verilir' %}</p>
+                    <p class="p-bottom-bottom text-center">{% trans 'və üçüncü şəxsə məlumat verilməyəcək!' %}</p>
                 </form>
             </div>
         </div>
@@ -283,11 +279,10 @@
                     {% trans 'Diqqət!' %}
                 </h3>
                 <p class="text-center font-open-s-r">
-                    Перед тем как отправлять документ вам следует знать,что наши услуги дейтвительно только
-                    в Азербайджанском Государственном Университете Нефти и Промышленности.
+                    {% trans 'Faylları göndərməmişdən qabaq sizə bildirmək istiyir ki, bizim xidmətlərimiz ancaq Azərbaycan Dövlət Neft və Sənayə Universitində mövcuddur.' %}
                 </p>
                 <p class="text-center font-open-s-r">
-                    В ближайщем будущем наши услуги будут во всех вузах Азербайджана.
+                    {% trans 'Yaxın gələcəkdə bizim xidmətlərimiz bütün Azərbaycan Ali məktəblərdə mövcud olacaq.' %}
                 </p>
             </div>
         </div>
@@ -298,8 +293,8 @@
 
 <footer class="footer sectionAnimate">
     <div class="container">
-        <h6 class="title text-center text-black font-open-s-r nm-t animated" data-direction="fadeInUp">Наше местоположение</h6>
-        <p class="street text-black font-open-s-b animated" data-direction="fadeInUp"><i class="fa fa-university"></i> Азербайджанский Университет Нефти и Промышленности,1-ый корпус, комната номер 200</p>
+        <h6 class="title text-center text-black font-open-s-r nm-t animated" data-direction="fadeInUp">{% trans 'Bizim yerləşdiyimiz məkan' %}</h6>
+        <p class="street text-black font-open-s-b animated" data-direction="fadeInUp"><i class="fa fa-university"></i> {% trans 'Azerbacan dovlet neft ve saneye universitetin binasi' %}</p>
         <p class="street text-black font-open-s-b animated" data-direction="fadeInUp"><i class="fa fa-phone"></i> +994775586280</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1519.676747363034!2d49.848598369320676!3d40.378857400977104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53a5c1e7cc11c36f!2z0JDQt9C10YDQsdCw0LnQtNC20LDQvdGB0LrQuNC5INCT0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90YvQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINCd0LXRhNGC0Lgg0Jgg0J_RgNC-0LzRi9GI0LvQtdC90L3QvtGB0YLQuA!5e0!3m2!1sru!2s!4v1485112117632" allowfullscreen></iframe>
     </div>
