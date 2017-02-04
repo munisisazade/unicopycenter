@@ -18,6 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n != 1);\n"
 
-#: tr/templates/index.html:26
-msgid "Digər təamlar"
-msgstr "Другие блюда"
+#: az/templates/index.html:283
+msgid "Diqqət!"
+msgstr "Внимания!"
