@@ -129,13 +129,6 @@ msgstr "Нажмите на кнопку 'Отправить файл'"
 #: az/templates/index.html:157
 msgid "Xidmət Haqqı"
 msgstr "Односторонний"
-#: az/templates/index.html:146
-msgid "Fayl gondermek duymesine basin"
-msgstr "Нажмите на кнопку 'Отправить файл'"
-#: az/templates/index.html:146
-msgid "Fayl gondermek duymesine basin"
-msgstr "Нажмите на кнопку 'Отправить файл'"
-
 
 
 
