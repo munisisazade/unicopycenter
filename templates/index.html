@@ -301,12 +301,12 @@
                     <p class="text-center">{% trans 'Formanı doldurun' %}</p>
                     <p class="p-top text-center">{% trans 'və sizin müraciətiniz növbəti gün hazır olacaq' %}</p>
                     <div class="form-group has-error">
-                        <input type="text" class="form-control text-uppercase required" placeholder="{% trans 'Sizin adınız ve soyadınız' %}">
+                        <input type="text" name="full_name" class="form-control text-uppercase required" placeholder="{% trans 'Sizin adınız ve soyadınız' %}">
 
                     </div>
 
                     <div class="form-group">
-                        <select name="student" class="form-control text-uppercase select required">
+                        <select name="student" name="check_user" class="form-control text-uppercase select required">
                             <option selected disabled>{% trans 'Tələbəsiniz' %}</option>
                             <option value="one">{% trans 'Bəli' %}</option>
                             <option value="two">{% trans 'Xeyir' %}</option>
@@ -317,7 +317,7 @@
 
                     </div>
                     <div class="form-group">
-                        <select name="listtype" class="form-control text-uppercase select required">
+                        <select name="papertype" class="form-control text-uppercase select required">
                             <option selected disabled>{% trans 'Vərəqin tipini seçin' %}</option>
                             <option value="one">{% trans 'Birüzlü' %}</option>
                             <option value="two">{% trans 'İkiüzlü' %}</option>
@@ -331,7 +331,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control text-uppercase required" placeholder="{% trans 'Sizin nömrəniz' %}">
+                        <input type="text" name="phone" class="form-control text-uppercase required" placeholder="{% trans 'Sizin nömrəniz' %}">
 
                     </div>
 

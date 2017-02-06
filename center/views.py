@@ -1,9 +1,15 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, FormView
+from center.forms import UploadFileForm
 # Create your views here.
 
-class IndexRequestView(TemplateView):
+class IndexRequestView(TemplateView,FormView):
     template_name = 'index.html'
+    form_class = UploadFileForm
+
+
+    def post(self, request, *args, **kwargs):
+        pass
 
     def get_context_data(self, **kwargs):
         context = super(IndexRequestView, self).get_context_data(**kwargs)
