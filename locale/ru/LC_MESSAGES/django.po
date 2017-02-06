@@ -166,3 +166,21 @@ msgistr "слишком большое! Пожалуйста загрузите 
 
 msgid "fayl yüklənir"
 msgstr "Вам не разрешено загружать папки"
+
+msgid "Tələbəsiniz"
+msgstr "Студент ли вы?"
+
+msgid "Bəli"
+msgstr "Да"
+
+msgid "Xeyir"
+msgstr "Нет"
+
+msgid "Çap olunacaq faylın tipi:"
+msgstr "Выберите цвет распечатки:"
+
+msgid "ağ-qara"
+msgstr "черно-белый"
+
+msgid "rəngli"
+msgstr "цветной"
