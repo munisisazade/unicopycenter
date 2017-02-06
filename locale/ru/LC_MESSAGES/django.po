@@ -31,7 +31,7 @@ msgstr "В ближайщем будущем наши услуги будут в
 msgid "Sizin sənədləriniz gün ərzində qəbul olunacaq"
 msgstr "Ваш файл будет принят в течении всего дня"
 #: az/templates/index.html:230
-msgid "Formani doldurun"
+msgid "Formanı doldurun"
 msgstr "Заполните форму"
 #: az/templates/index.html:231
 msgid "və sizin müraciətiniz növbəti gün hazır olacaq"
@@ -79,58 +79,58 @@ msgstr "Отправить файл"
 msgid "UniCopyCenter Nədir?"
 msgstr "Что такое UniCopyCenter?"
 #: az/templates/index.html:79
-msgid "Bu Sayt faylarin tez gonderelmesine ve sizin senedlerin vaxt itirmeden alinmasi ucun nezerde tutulmuwdur. Bizim komanda sizi memun etmek ucun elinden geleni edir."
+msgid "Bu Sayt fayıllarin tez göndərilməsinə və sizin sənədlərinzin vaxt itirmədən alınması üçün nəzərdə tutulmuşdur. Bizim komanda sizi məmnun etmək üçün əlindən gələni edir."
 msgstr "UniCopyCenter это сайт, разработанный для быстрой отправки файлов и скорейшего получение ваших документов без потерий времени.Наша команда делает все возможное чтобы вы были довольны."
 #: az/templates/index.html:85
-msgid "Sayt kimler ucun nezerde tutulub?"
+msgid "Sayt kimlər üçün nəzərdə tutulub?"
 msgstr "Для кого предназначен сайт?"
 #: az/templates/index.html:92
-msgid "Bu sayt ,esasen, Azerbaycanin Ali tehsil mekteblerinde oxuyan telebeler ucun nezerde tutulub.Biz caliwiriqki telebeler faylarin cap olumasi ucun vaxt itirmesinler."
+msgid "Bu sayt ,əsasən, Azerbaycanın Ali təhsil məktəblərində oxuyan tələbələr üçün nəzərdə tutulub.Biz calışırıqki tələbələr faylların çap oluması üçün vaxt itirməsinlər."
 msgstr "Сайт в основном предназначен для студентов учающихся в вузах Азербайджана.Мы стараемся чтобы студенты не тратили время на распечатку файлов."
 #: az/templates/index.html:101
 msgid "Bizim məqsədimiz"
 msgstr "Наша цель"
 #: az/templates/index.html:107
-msgid "Bizim esas meqsedimiz odurki telebeler faylarin cap olunmasina vaxta qanaet etsinler hemcinin bizim ofise gelerken senedlerinin artiq hazir olmasina  emin olsunlar"
+msgid "Bizim əsas məqsədimiz odurki tələbələr faylların çap olunmasına vaxta qənaət etsinlər həmçinin bizim ofisə gələrkən sənədlərinin artıq hazır olmasına  əmin olsunlar"
 msgstr "Наша цель состоит в том, чтобы сэкономить время студента на распечатку документов, а также уверенность в том, что ваш документ будет готова как только вы придете в наш UniCopyCenter."
 #: az/templates/index.html:117
 msgid "Sənədlərin göndərmə qaydaları"
 msgstr "Правила подачи документов"
 #: az/templates/index.html:124
-msgid "Sizin senedleriniz gun erzinde qebul edilir(00:00 qeder)."
+msgid "Sizin sənədləriniz gün ərzində qebul edilir(00:00 qədər)."
 msgstr "Ваши документы принимаются в течении всего дня (до 00:00)."
 #: az/templates/index.html:125
-msgid "Novbeti gununde, siz bizim ofise gelerek, oz senedleriniz vaxt itirmeden goture bilersiniz."
+msgid "Növbəti günündə, siz bizim ofisə gələrək, öz sənədləriniz vaxt itirmədən götürə bilərsiniz."
 msgstr "На следующий день вы можете прийти и без потери времени взять свою готовую работу."
 #: az/templates/index.html:133
 msgid "Bu necə işləyir?"
 msgstr "Как это работает?"
 #: az/templates/index.html:140
-msgid "Fayl gondermek duymesine basin"
+msgid "Fayl göndərmək düyməsinə basın"
 msgstr "Нажмите на кнопку 'отправить файл'"
 #: az/templates/index.html:141
-msgid "Adiniz,Soyadinizı daxil edin"
+msgid "Adınız,Soyadınızı daxil edin"
 msgstr "Введите имя,фамилию,отчества"
 #: az/templates/index.html:142
-msgid "Hansi Univerisitetde oxuyursunuz"
+msgid "Hansı Univerisitetdə oxuyursunuz"
 msgstr "Укажите в каком университете вы учитесь"
 #: az/templates/index.html:143
 msgid "Hansı qrupda oxuyursunuz"
 msgstr "Укажите в каком вы курсе и какая ваша группа"
 #: az/templates/index.html:144
-msgid "Telefon nomrenizi daxil edin"
+msgid "Telefon nömrənizi daxil edin"
 msgstr "Укажите номер телефона"
 #: az/templates/index.html:145
-msgid "Cap ucun fayli secin"
+msgid "Çap üçün faylı seçin"
 msgstr "Выберите файлы для распечатки"
 #: az/templates/index.html:157
 msgid "Xidmət Haqqı"
 msgstr "Стоимость услуги"
 #: az/templates/index.html:161
-msgid "1-den 100 qeder"
+msgid "1-dən 100 -ə qədər"
 msgstr "от 1 до 100 листов"
 #: az/templates/index.html:200
-msgid "100-den artiq"
+msgid "100-dən artıq"
 msgstr "Более 100 листов"
 #: az/templates/index.html:177
 msgid "qəp"
@@ -143,5 +143,26 @@ msgstr "коп"
 msgid "Bizim yerləşdiyimiz məkan"
 msgstr "Наше местоположение"
 #: az/templates/index.html:297
-msgid "Azerbacan dovlet neft ve saneye universitetin binasi"
-msgstr "Азербайджанский Университет Нефти и Промышленности,1-ый корпус, комната номер 200"
+msgid "Metro 28 Maya yaxın."
+msgstr "Возле метро 28 май."
+
+
+msgid "Fayl yüklə"
+msgstr "Загрузить файл"
+
+msgid "Siz faylı silməyə əminsiz"
+msgstr "Вы уверены что хотите отменить?"
+
+
+msgid "Fayl yükləmək limiti "
+msgstr "только файлов разрешено загружать "
+
+
+msgid "Yalnız doc,docx və pdf format qəbul edilir"
+msgstr "Только doc,docx и pdf разрешено загружать"
+
+msgid "Çox böyük fayldır zəhmət olmasa 2 mb dan az həcmli fayl yükləyin"
+msgistr "слишком большое! Пожалуйста загрузите файл меньше чем MB."
+
+msgid "fayl yüklənir"
+msgstr "Вам не разрешено загружать папки"

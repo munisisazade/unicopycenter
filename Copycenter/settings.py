@@ -65,7 +65,7 @@ ROOT_URLCONF = 'Copycenter.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/munis/unicopycenter/templates'],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -140,7 +140,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = 'static'
-
+# STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, "static"),
+#    '/home/munis/Documents/unicopycenter/static',
+# ]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = 'media'
