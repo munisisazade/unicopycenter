@@ -162,7 +162,7 @@ msgid "Yalnız doc,docx və pdf format qəbul edilir"
 msgstr "Только doc,docx и pdf разрешено загружать"
 
 msgid "Çox böyük fayldır zəhmət olmasa 2 mb dan az həcmli fayl yükləyin"
-msgistr "слишком большое! Пожалуйста загрузите файл меньше чем MB."
+msgstr "слишком большое! Пожалуйста загрузите файл меньше чем MB."
 
 msgid "fayl yüklənir"
 msgstr "Вам не разрешено загружать папки"
