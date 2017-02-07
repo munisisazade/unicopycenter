@@ -80,19 +80,19 @@ msgid "UniCopyCenter Nədir?"
 msgstr "Что такое UniCopyCenter?"
 #: az/templates/index.html:79
 msgid "Bu Sayt fayıllarin tez göndərilməsinə və sizin sənədlərinzin vaxt itirmədən alınması üçün nəzərdə tutulmuşdur. Bizim komanda sizi məmnun etmək üçün əlindən gələni edir."
-msgstr "UniCopyCenter это сайт, разработанный для быстрой отправки файлов и скорейшего получение ваших документов без потерий времени.Наша команда делает все возможное чтобы вы были довольны."
+msgstr "UniCopyCenter это сервис, для распечатки документов таких как doc,docx,djvu и pdf файлов. Наша команда делает все возможное чтобы вы были довольны."
 #: az/templates/index.html:85
 msgid "Sayt kimlər üçün nəzərdə tutulub?"
-msgstr "Для кого предназначен сайт?"
+msgstr "Для кого предназначен сервис?"
 #: az/templates/index.html:92
 msgid "Bu sayt ,əsasən, Azerbaycanın Ali təhsil məktəblərində oxuyan tələbələr üçün nəzərdə tutulub.Biz calışırıqki tələbələr faylların çap oluması üçün vaxt itirməsinlər."
-msgstr "Сайт в основном предназначен для студентов учающихся в вузах Азербайджана.Мы стараемся чтобы студенты не тратили время на распечатку файлов."
+msgstr "Этот сервис в основном предназначен для студентов учащихся в вузах Азербайджана, а также для простых граждан, которые нуждаются в распечатке документов. Мы стараемся, чтобы вы не тратили время на распечатку файлов."
 #: az/templates/index.html:101
 msgid "Bizim məqsədimiz"
 msgstr "Наша цель"
 #: az/templates/index.html:107
 msgid "Bizim əsas məqsədimiz odurki tələbələr faylların çap olunmasına vaxta qənaət etsinlər həmçinin bizim ofisə gələrkən sənədlərinin artıq hazır olmasına  əmin olsunlar"
-msgstr "Наша цель состоит в том, чтобы сэкономить время студента на распечатку документов, а также уверенность в том, что ваш документ будет готова как только вы придете в наш UniCopyCenter."
+msgstr "Наша цель состоит в том, чтобы сэкономить ваше время на распечатку документов, а также уверенность в том, что ваш документ будет готов на следующий день."
 #: az/templates/index.html:117
 msgid "Sənədlərin göndərmə qaydaları"
 msgstr "Правила подачи документов"
@@ -113,16 +113,16 @@ msgid "Adınız,Soyadınızı daxil edin"
 msgstr "Введите имя,фамилию,отчества"
 #: az/templates/index.html:142
 msgid "Hansı Univerisitetdə oxuyursunuz"
-msgstr "Укажите в каком университете вы учитесь"
+msgstr "Укажите студент ли вы?"
 #: az/templates/index.html:143
 msgid "Hansı qrupda oxuyursunuz"
-msgstr "Укажите в каком вы курсе и какая ваша группа"
+msgstr "Если вы студент, то укажите в каком университете вы учитесь."
 #: az/templates/index.html:144
 msgid "Telefon nömrənizi daxil edin"
-msgstr "Укажите номер телефона"
+msgstr "Укажите номер телефона."
 #: az/templates/index.html:145
 msgid "Çap üçün faylı seçin"
-msgstr "Выберите файлы для распечатки"
+msgstr "Укажите тип распечатки."
 #: az/templates/index.html:157
 msgid "Xidmət Haqqı"
 msgstr "Стоимость услуги"

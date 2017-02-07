@@ -5,7 +5,7 @@ from center.models import Uploads
 class UploadsForm(forms.ModelForm):
     class Meta:
         model = Uploads
-        fields = ('relation','key','file','upload_file','fayl_name')
+        fields = ('relation','key','file')
 
 
 class UploadFileForm(forms.Form):
@@ -13,5 +13,3 @@ class UploadFileForm(forms.Form):
     check_user = forms.CharField(max_length=255)
     papertype = forms.CharField(max_length=255)
     listtype = forms.CharField(max_length=255)
-    phone = forms.CharField(max_length=255)
-    file = forms.FileField()
