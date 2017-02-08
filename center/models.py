@@ -11,13 +11,13 @@ def filedirectory(instance,filename):
 
 # Create your models here.
 class Orders(models.Model):
-    full_name = models.CharField(max_length=255,verbose_name="Ad və Soyadı")
-    universitet = models.CharField(max_length=255,verbose_name="Universitet")
-    kurs = models.CharField(max_length=255,verbose_name="Kurs")
-    group = models.CharField(max_length=255,verbose_name="Qrup")
-    email = models.EmailField(verbose_name="E-mail")
-    number = models.CharField(max_length=255,verbose_name="Nomre")
-    text = models.TextField(verbose_name="Əlavə məlumat")
+    full_name = models.CharField(max_length=255,verbose_name="Ad və Soyadı",null=True,blank=True)
+    universitet = models.CharField(max_length=255,verbose_name="Universitet",null=True,blank=True)
+    kurs = models.CharField(max_length=255,verbose_name="Kurs",null=True,blank=True)
+    group = models.CharField(max_length=255,verbose_name="Qrup",null=True,blank=True)
+    email = models.EmailField(verbose_name="E-mail",null=True,blank=True)
+    number = models.CharField(max_length=255,verbose_name="Nomre",null=True,blank=True)
+    text = models.TextField(verbose_name="Əlavə məlumat",null=True,blank=True)
     key = models.CharField(max_length=255,null=True,blank=True)
     types = models.IntegerField(choices=tipi,default=1)
     date = models.DateTimeField(null=True,blank=True,default=timezone.now)
