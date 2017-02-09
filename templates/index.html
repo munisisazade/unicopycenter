@@ -339,8 +339,8 @@
                     <div class="form-group">
                         <input type="file" name="files[]" id="filer_input" multiple="multiple">
                     </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-block btn-blue disabled text-center text-uppercase font-open-s-b nr ">{% trans 'Fayl göndər' %}</button>
+                    <div class="form-group" id="js-send">
+                        <button type="submit" disabled class="btn btn-block btn-blue disabled text-center text-uppercase font-open-s-b nr ">{% trans 'Fayl göndər' %}</button>
                     </div>
                     <p class="p-bottom-top text-center">{% trans 'Sizin məlumatınızın təhlükəsizliyinə təminat verilir' %}</p>
                     <p class="p-bottom-bottom text-center">{% trans 'və üçüncü şəxsə məlumat verilməyəcək!' %}</p>
@@ -376,7 +376,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.3109578866374!2d49.84742742193041!3d40.37980029643605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da78f00bb29%3A0x58adac400e0c11c5!2zMjgg0JzQsNGP!5e0!3m2!1sru!2s!4v1486410349333" allowfullscreen></iframe>
     </div>
 </footer>
-<style>
+<script>
 
     button_name = "{% trans 'Fayl yüklə' %}";
     remove_file = "{% trans 'Siz faylı silməyə əminsiz' %}";
@@ -385,7 +385,7 @@
     big_fayl = "{% trans 'Çox böyük fayldır zəhmət olmasa 2 mb dan az həcmli fayl yükləyin' %}";
     loading = "{% trans 'fayl yüklənir' %}";
 
-</style>
+</script>
 <!--<script src="//localhost:35729/livereload.js"></script>-->
 </body>
 </html>
