@@ -283,7 +283,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body np">
-                <form class="form form-file font-open-s-r" method="POST">
+                <form class="form form-file font-open-s-r" method="POST" enctype="multipart/form-data">
                     <div class="asset-main-class">
                         <div class="get-token">
                             <div class="hoц-фывьфац">
@@ -306,28 +306,28 @@
                     </div>
 
                     <div class="form-group">
-                        <select name="student" name="check_user" class="form-control text-uppercase select required">
+                        <select name="student" name="check_user" class="student form-control text-uppercase select required">
                             <option selected disabled>{% trans 'Tələbəsiniz' %}</option>
-                            <option value="one">{% trans 'Bəli' %}</option>
-                            <option value="two">{% trans 'Xeyir' %}</option>
+                            <option value="1">{% trans 'Bəli' %}</option>
+                            <option value="2">{% trans 'Xeyir' %}</option>
                         </select>
                     </div>
-                    <div class="form-group hide">
-                        <input type="text" class="form-control text-uppercase required" placeholder="{% trans 'Sizin universitet' %}">
+                    <div class="form-group hide" id="univercity">
+                        <input type="text" name="universitet" class="form-control text-uppercase required" placeholder="{% trans 'Sizin universitet' %}">
 
                     </div>
                     <div class="form-group">
                         <select name="papertype" class="form-control text-uppercase select required">
-                            <option selected disabled>{% trans 'Vərəqin tipini seçin' %}</option>
-                            <option value="one">{% trans 'Birüzlü' %}</option>
-                            <option value="two">{% trans 'İkiüzlü' %}</option>
+                            <option selected disabled>{% trans 'Vərəqin növünü seçin' %}</option>
+                            <option value="1">{% trans 'Birüzlü' %}</option>
+                            <option value="2">{% trans 'İkiüzlü' %}</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <select name="listtype" class="form-control text-uppercase select required">
                             <option selected disabled>{% trans 'Çap olunacaq faylın tipi:' %}</option>
-                            <option value="one">{% trans 'ağ-qara' %}</option>
-                            <option value="two">{% trans 'rəngli' %}</option>
+                            <option value="1">{% trans 'ağ-qara' %}</option>
+                            <option value="2">{% trans 'rəngli' %}</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -348,19 +348,20 @@
             </div>
         </div>
     </div>
-</div><div class="modal modal-alert fade" id="ModalAlert" tabindex="-1" role="dialog">
+</div>
+<div class="modal modal-alert fade" id="ModalAlert" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content nr">
             <div class="modal-body">
-                <h3 class="text-center text-danger text-uppercase font-open-s-b nm-t">
-                    {% trans 'Diqqət!' %}
-                </h3>
-                <p class="text-center font-open-s-r">
-                    {% trans 'Faylları göndərməmişdən qabaq sizə bildirmək istiyir ki, bizim xidmətlərimiz ancaq Azərbaycan Dövlət Neft və Sənayə Universitində mövcuddur.' %}
-                </p>
-                <p class="text-center font-open-s-r">
-                    {% trans 'Yaxın gələcəkdə bizim xidmətlərimiz bütün Azərbaycan Ali məktəblərdə mövcud olacaq.' %}
-                </p>
+                 {% if messages %}
+
+                        {% for message in messages %}
+                        <p class="text-center font-open-s-r {% if message.tags %}{{ message.tags }}{% endif %}">
+                            {{ message }}
+                        </p>
+                        {% endfor %}
+
+                    {% endif %}
             </div>
         </div>
     </div>
@@ -377,6 +378,13 @@
     </div>
 </footer>
 <script>
+
+    {% if messages %}
+    $(document).ready(function(){
+        $('.btnAlert').click();
+
+    });
+    {% endif %}
 
     button_name = "{% trans 'Fayl yüklə' %}";
     remove_file = "{% trans 'Siz faylı silməyə əminsiz' %}";

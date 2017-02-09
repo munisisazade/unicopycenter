@@ -5,6 +5,15 @@ tipi = (
     (1,"Bir üzlü"),
     (2,"Iki üzlü")
 )
+telebe = (
+    (1,'tələbə'),
+    (2,'Fiziki şəxs')
+)
+
+listtype = (
+    (1,'Ağ-qara'),
+    (2,'Rəngli')
+)
 
 def filedirectory(instance,filename):
     return "words/%s_%s" % (str(timezone.now()).replace(" ","_")[:19].replace(":","_"),filename)
@@ -13,13 +22,15 @@ def filedirectory(instance,filename):
 class Orders(models.Model):
     full_name = models.CharField(max_length=255,verbose_name="Ad və Soyadı",null=True,blank=True)
     universitet = models.CharField(max_length=255,verbose_name="Universitet",null=True,blank=True)
+    check_telebe = models.IntegerField(choices=telebe,verbose_name="Tələbəsiniz",null=True,blank=True)
+    listed = models.IntegerField(choices=listtype,verbose_name="Universitet",null=True,blank=True)
     kurs = models.CharField(max_length=255,verbose_name="Kurs",null=True,blank=True)
     group = models.CharField(max_length=255,verbose_name="Qrup",null=True,blank=True)
     email = models.EmailField(verbose_name="E-mail",null=True,blank=True)
     number = models.CharField(max_length=255,verbose_name="Nomre",null=True,blank=True)
     text = models.TextField(verbose_name="Əlavə məlumat",null=True,blank=True)
     key = models.CharField(max_length=255,null=True,blank=True)
-    types = models.IntegerField(choices=tipi,default=1)
+    types = models.IntegerField(choices=tipi,verbose_name="Vərəqin növü",default=1)
     date = models.DateTimeField(null=True,blank=True,default=timezone.now)
 
     class Meta:
@@ -30,16 +41,16 @@ class Orders(models.Model):
     def __str__(self):
         return self.full_name
 
-    def save(self, *args, **kwargs):
-        super(Orders, self).save(*args, **kwargs)
-        try:
-            items = Uploads.objects.filter(key=self.key)
-            for x in items:
-                x.relation_id = self.id
-                x.save()
-        except:
-            pass
-        super(Orders, self).save(*args, **kwargs)
+    # def save(self, *args, **kwargs):
+    #     super(Orders, self).save(*args, **kwargs)
+    #     try:
+    #         items = Uploads.objects.filter(key=self.key)
+    #         for x in items:
+    #             x.relation_id = self.id
+    #             x.save()
+    #     except:
+    #         pass
+    #     super(Orders, self).save(*args, **kwargs)
 
 
 class Uploads(models.Model):
@@ -62,7 +73,13 @@ class Uploads(models.Model):
     upload_file.allow_tags = True
 
     def fayl_name(self):
-        return "<button class='btn'><a href='/delete/?file_name=%s' target='_blank' style='color: #fff;'>Faylı sil</a></button>" % self.file.name
+        return "<button class='btn'><a href='/AJcrPnzDneoh/?file_name=%s' target='_blank' style='color: #fff;'>Faylı sil</a></button>" % self.file.name
 
     fayl_name.short_description = "Fayl"
+    fayl_name.allow_tags = True
+
+    def file_name(self):
+        return "%s" % self.file.name[6:]
+
+    fayl_name.short_description = "fayl name"
     fayl_name.allow_tags = True

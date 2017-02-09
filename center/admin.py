@@ -4,12 +4,12 @@ from center.models import Orders, Uploads
 class UploadsInline(admin.TabularInline):
     model = Uploads
     extra = 4
-    readonly_fields = ('upload_file','file','fayl_name')
+    readonly_fields = ('upload_file','file_name','fayl_name')
     raw_id_fields = ('relation',)
     exclude = ('upload_file',)
     fieldsets = [
         ('İcra olunmalıdır', {
-            'fields': ['upload_file','file', 'fayl_name']
+            'fields': ['upload_file','file_name', 'fayl_name']
         }),
     ]
 
@@ -22,13 +22,13 @@ class OrdersAdmin(admin.ModelAdmin):
     search_fields = ('full_name',)
     fieldsets = [
         ('Sifarışçi haqqında ətraflı məlumat', {
-            'fields': ['full_name', 'universitet', 'kurs','group']
+            'fields': ['full_name', 'check_telebe','universitet']
         }),
         ('Elaqə üçün məlumatlar', {
-            'fields': ['email', 'number']
+            'fields': ['number']
         }),
         ('İcra olunmalıdır', {
-            'fields': ['types','text','date']
+            'fields': ['types','listed','date']
         }),
     ]
 

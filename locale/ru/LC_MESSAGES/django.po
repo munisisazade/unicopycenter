@@ -58,7 +58,7 @@ msgstr "Ваш номер"
 msgid "Təsvir"
 msgstr "Описание"
 #: az/templates/index.html:261
-msgid "Vərəqin tipini seçin:"
+msgid "Vərəqin növünü seçin"
 msgstr "Выберите тип листа:"
 #: az/templates/index.html:262
 msgid "Birüzlü"
@@ -184,3 +184,7 @@ msgstr "черно-белый"
 
 msgid "rəngli"
 msgstr "цветной"
+
+msgid "Fayl uğurla göndərildi!"
+msgstr "Ваш файл был успешно отправлен!"
+
