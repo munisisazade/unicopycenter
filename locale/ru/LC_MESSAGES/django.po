@@ -110,7 +110,7 @@ msgid "Fayl göndərmək düyməsinə basın"
 msgstr "Нажмите на кнопку 'отправить файл'"
 #: az/templates/index.html:141
 msgid "Adınız,Soyadınızı daxil edin"
-msgstr "Введите имя,фамилию,отчества"
+msgstr "Введите имя и фамилию."
 #: az/templates/index.html:142
 msgid "Hansı Univerisitetdə oxuyursunuz"
 msgstr "Укажите студент ли вы?"
@@ -188,3 +188,5 @@ msgstr "цветной"
 msgid "Fayl uğurla göndərildi!"
 msgstr "Ваш файл был успешно отправлен!"
 
+msgid "Çap olunacaq faylları seçin."
+msgstr "Выберите файлы для распечатки."
