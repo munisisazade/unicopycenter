@@ -79,7 +79,7 @@ msgstr "Отправить файл"
 msgid "UniCopyCenter Nədir?"
 msgstr "Что такое UniCopyCenter?"
 #: az/templates/index.html:79
-msgid "Bu Sayt fayıllarin tez göndərilməsinə və sizin sənədlərinzin vaxt itirmədən alınması üçün nəzərdə tutulmuşdur. Bizim komanda sizi məmnun etmək üçün əlindən gələni edir."
+msgid "UniCopyCenter  faylların(doc,docx,pdf,djvu) çap edilməsi üçün onlayn servisdir. Bizim komanda sizi məmnun etmək üçün əlindən gələni edir."
 msgstr "UniCopyCenter это сервис, для распечатки документов таких как doc,docx,djvu и pdf файлов. Наша команда делает все возможное чтобы вы были довольны."
 #: az/templates/index.html:85
 msgid "Sayt kimlər üçün nəzərdə tutulub?"
