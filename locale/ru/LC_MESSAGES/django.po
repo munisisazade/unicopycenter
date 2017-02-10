@@ -85,7 +85,7 @@ msgstr "UniCopyCenter это сервис, для распечатки доку�
 msgid "Sayt kimlər üçün nəzərdə tutulub?"
 msgstr "Для кого предназначен сервис?"
 #: az/templates/index.html:92
-msgid "Bu sayt ,əsasən, Azerbaycanın Ali təhsil məktəblərində oxuyan tələbələr üçün nəzərdə tutulub.Biz calışırıqki tələbələr faylların çap oluması üçün vaxt itirməsinlər."
+msgid "Bu sayt ,əsasən, Azerbaycanın Ali təhsil məktəblərində oxuyan tələbələr,həmçinin fiziki şəxs üçün nəzərdə tutulub.Biz calışırıqki tələbələr( fiziki şəxslər) faylların çap oluması üçün vaxt itirməsinlər."
 msgstr "Этот сервис в основном предназначен для студентов учащихся в вузах Азербайджана, а также для простых граждан, которые нуждаются в распечатке документов. Мы стараемся, чтобы вы не тратили время на распечатку файлов."
 #: az/templates/index.html:101
 msgid "Bizim məqsədimiz"
