@@ -21,10 +21,13 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from center.views import delete_file
+from django.views.generic import TemplateView
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^AJcrPnzDneoh/', delete_file ,name='delete'),
+    url(r'^f4e6071b14b7.html$', TemplateView.as_view(template_name='f4e6071b14b7.html')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
