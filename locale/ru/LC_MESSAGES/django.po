@@ -59,7 +59,7 @@ msgid "Təsvir"
 msgstr "Описание"
 #: az/templates/index.html:261
 msgid "Listin növünü seçin"
-msgstr "Выберите тип листа:"
+msgstr "Выберите тип листа"
 #: az/templates/index.html:262
 msgid "Birüzlü"
 msgstr "Односторонний"
