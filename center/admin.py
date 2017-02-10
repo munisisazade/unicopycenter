@@ -17,7 +17,7 @@ class UploadsInline(admin.TabularInline):
 
 class OrdersAdmin(admin.ModelAdmin):
     inlines = [UploadsInline, ]
-    list_display = ('full_name', 'number', 'email','date')
+    list_display = ('full_name', 'number', 'check_telebe','date')
     list_filter = ('date',)
     search_fields = ('full_name',)
     fieldsets = [
