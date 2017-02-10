@@ -58,7 +58,7 @@ msgstr "Ваш номер"
 msgid "Təsvir"
 msgstr "Описание"
 #: az/templates/index.html:261
-msgid "Vərəqin növünü seçin"
+msgid "Listin növünü seçin"
 msgstr "Выберите тип листа:"
 #: az/templates/index.html:262
 msgid "Birüzlü"
