@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^AJcrPnzDneoh/', delete_file ,name='delete'),
     url(r'^f4e6071b14b7.html$', TemplateView.as_view(template_name='f4e6071b14b7.html')),
+    url(r'^google71597c4e3ad7b723.html$', TemplateView.as_view(template_name='google71597c4e3ad7b723.html')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
