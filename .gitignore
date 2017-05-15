@@ -91,6 +91,7 @@ ENV/
 # Rope project settings
 .ropeproject
 .idea/
+db.sqlite3
 restart.sh
 makemigrations.sh
 shell.sh
