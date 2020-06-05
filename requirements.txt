@@ -1,5 +1,5 @@
 dj-static==0.0.6
-Django==1.10.5
+Django==1.11.29
 django-material==0.12.3
 django-modeltranslation==0.12
 gunicorn==19.6.0
