@@ -4,6 +4,6 @@ django-material==0.12.3
 django-modeltranslation==0.12
 gunicorn==19.6.0
 olefile==0.44
-Pillow==4.0.0
+Pillow==9.0.0
 requests==2.13.0
 static3==0.7.0
